@@ -7,7 +7,7 @@ setup(
     long_description=open('README.md', encoding='utf-8').read(),
     long_description_content_type='text/markdown',
     author='Selva Neyas U',
-    author_email='your-email@example.com',  # update with your email
+    author_email='selvaneyas@gmail.com',  # update with your email
     license='MIT',
     packages=find_packages(),
     include_package_data=True,
