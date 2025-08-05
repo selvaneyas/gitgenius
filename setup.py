@@ -4,7 +4,7 @@ setup(
     name='gitgenius',
     version='0.1.0',
     description='GitGenius CLI - Understand Git errors in plain English',
-    long_description=open('README.md').read(),
+    long_description=open('README.md', encoding='utf-8').read(),
     long_description_content_type='text/markdown',
     author='Selva Neyas U',
     author_email='your-email@example.com',  # update with your email
