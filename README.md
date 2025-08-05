@@ -3,13 +3,14 @@
 > Understand Git errors in plain English – directly from your terminal.
 
 
+# gitgenius
+
 [![PyPI version](https://img.shields.io/pypi/v/gitgenius)](https://pypi.org/project/gitgenius/)
 [![Python versions](https://img.shields.io/pypi/pyversions/gitgenius)](https://pypi.org/project/gitgenius/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub stars](https://img.shields.io/github/stars/selvaneyas/gitgenius-cli.svg?style=social)](https://github.com/selvaneyas/gitgenius-cli)
-[![Issues](https://img.shields.io/github/issues/selvaneyas/gitgenius-cli.svg)](https://github.com/selvaneyas/gitgenius-cli/issues)
-[![Last Commit](https://img.shields.io/github/last-commit/selvaneyas/gitgenius-cli)](https://github.com/selvaneyas/gitgenius-cli)
-
+[![GitHub stars](https://img.shields.io/github/stars/selvaneyas/gitgenius.svg?style=social)](https://github.com/selvaneyas/gitgenius)
+[![Issues](https://img.shields.io/github/issues/selvaneyas/gitgenius.svg)](https://github.com/selvaneyas/gitgenius/issues)
+[![Last Commit](https://img.shields.io/github/last-commit/selvaneyas/gitgenius)](https://github.com/selvaneyas/gitgenius/commits/main)
 
 GitGenius is a simple command-line tool that explains Git errors in friendly, understandable language.
 
