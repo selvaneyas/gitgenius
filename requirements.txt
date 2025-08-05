@@ -1,0 +1,12 @@
+# ========================
+# Project Requirements
+# ========================
+
+# GitPython: Used to interact with Git repositories from Python
+GitPython==3.1.32
+
+# gitdb: Dependency of GitPython for accessing Git object database
+gitdb==4.0.10
+
+# Rich: For beautiful and formatted CLI outputs
+rich==13.7.1

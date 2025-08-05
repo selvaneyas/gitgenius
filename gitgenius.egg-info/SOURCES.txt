@@ -1,0 +1,15 @@
+README.md
+setup.py
+gitgenius/__init__.py
+gitgenius/admin.py
+gitgenius/cli.py
+gitgenius/db.py
+gitgenius/error_db.py
+gitgenius/explainer.py
+gitgenius/tempCodeRunnerFile.py
+gitgenius.egg-info/PKG-INFO
+gitgenius.egg-info/SOURCES.txt
+gitgenius.egg-info/dependency_links.txt
+gitgenius.egg-info/entry_points.txt
+gitgenius.egg-info/requires.txt
+gitgenius.egg-info/top_level.txt
