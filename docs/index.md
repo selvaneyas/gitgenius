@@ -10,7 +10,6 @@ Welcome to the documentation for **GitGenius CLI**, your intelligent command-lin
 
 **GitGenius** is a smart and simple CLI tool that explains Git errors in plain English and helps you fix them quickly.
 
----
 
 ## 🚀 Why GitGenius?
 
@@ -19,7 +18,6 @@ Welcome to the documentation for **GitGenius CLI**, your intelligent command-lin
 - Lightweight, no learning curve
 - Built for developers, by a developer
 
----
 
 ## 📚 Explore
 
