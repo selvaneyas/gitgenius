@@ -1,0 +1,111 @@
+site_name: GitGenius
+site_description: "GitGenius - A smart CLI tool that explains Git errors in plain English."
+site_author: "Selva Neyas"
+
+site_url: https://selvaneyas.github.io/gitgenius-cli
+repo_url: https://github.com/selvaneyas/gitgenius-cli
+theme:
+  name: material
+  logo: assets/logo.png      # Logo in the top left of navbar
+  favicon: assets/favicon.png     # Browser tab icon (favicon)
+
+# ✅ Dual mode: light and dark
+  palette:
+    - scheme: default
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.instant
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
+    - toc.integrate
+    - header.autohide
+    - announce.dismiss
+    - content.tabs.link
+    - search.suggest
+    - search.highlight
+  font:
+    text: Roboto
+    code: Fira Code
+  language: en
+  favicon: assets/favicon.ico
+  icon:
+    repo: fontawesome/brands/github
+
+repo_url: https://github.com/selvaneyas/gitgenius
+repo_name: selvaneyas/gitgenius
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/selvaneyas/gitgenius
+      name: GitHub
+
+  manifest:
+    name: GitGenius
+    short_name: GitGenius
+    start_url: /
+    display: standalone
+    theme_color: "#ffffff"
+    background_color: "#ffffff"
+  service_worker: true
+
+  generator: false
+
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - codehilite
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+plugins:
+  - mike
+  - search
+  # - pwa
+
+
+nav:
+  - Home: index.md
+  - Installation: install.md
+  - Usage: usage.md
+  - Features: features.md
+  - FAQ: faq.md
+  - Changelog: changelog.md
+
+# ✅ copyright
+copyright: 'Made with ❤️ by Selva Neyas'
