@@ -136,6 +136,146 @@ rm -rf build dist *.egg-info
 ---
 
 
+To deploy your **MkDocs + Material for MkDocs** documentation site for **free**, including SEO, custom domain, social preview, and versioning, here’s a **complete step-by-step guide**:
+
+---
+
+## ✅ 1. 🧱 Project Structure Example
+
+```
+your-docs-project/
+│
+├── docs/
+│   ├── index.md
+│   └── ...other pages...
+│
+├── mkdocs.yml
+└── .git
+```
+
+---
+
+## ✅ 2. 📄 `mkdocs.yml` Configuration (Basic)
+
+```yaml
+site_name: GitGenius
+site_description: Understand Git errors in plain English.
+site_author: Selvaneyas
+
+theme:
+  name: material
+  logo: assets/favicon.ico
+  favicon: assets/favicon.ico
+  palette:
+    scheme: default
+
+plugins:
+  - search
+  - mike  # Versioning (install separately)
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/selvaneyas/gitgenius
+```
+
+---
+
+## ✅ 3. 🎨 Make Favicon Background White or Transparent
+
+Use a transparent favicon or convert it to white background:
+
+### Convert PNG to Transparent/White background:
+
+Use online tools:
+
+* [https://www.remove.bg](https://www.remove.bg)
+* [https://favicon.io/](https://favicon.io/)
+
+Then save it in your project:
+
+```
+/docs/assets/favicon.ico
+```
+
+---
+
+## 🌍 Free Deployment Using GitHub Pages
+
+### 🔧 Step-by-step Setup:
+
+#### 1. ✅ Install MkDocs
+
+```bash
+pip install mkdocs
+pip install mkdocs-material
+pip install mike
+```
+
+> ✅ Do NOT use `mkdocs-pwa` — it's not maintained or published on PyPI!
+
+---
+
+#### 2. ✅ Initialize Git & Push to GitHub
+
+```bash
+git init
+git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO
+git add .
+git commit -m "Initial commit"
+git push -u origin main
+```
+
+---
+
+#### 3. ✅ Configure Mike for Versioning (Optional)
+
+```bash
+mike deploy --update-aliases v1 latest
+mike set-default v1
+```
+
+---
+
+#### 4. ✅ Build & Deploy to `gh-pages`
+
+```bash
+mkdocs gh-deploy
+```
+
+> This creates the `gh-pages` branch and uploads static files.
+
+---
+
+## 🔁 Enable GitHub Pages
+
+* Go to GitHub → Settings → Pages
+* Select Branch: `gh-pages`
+* Folder: `/ (root)`
+* Your site will be live at:
+
+  ```
+  https://YOUR_USERNAME.github.io/YOUR_REPO
+  ```
+
+---
+
+## 🌐 Add a Custom Domain (Optional)
+
+1. Buy a domain from [Freenom](https://www.freenom.com/) or [Namecheap](https://www.namecheap.com/).
+2. Create a file named `CNAME` inside `/docs` with your domain:
+
+   ```
+   www.gitgenius.tech
+   ```
+3. Update DNS settings of your domain to point to:
+
+```
+CNAME -> YOUR_USERNAME.github.io
+```
+
+
+---
 
 ## 👨‍💻 Maintainer
 
