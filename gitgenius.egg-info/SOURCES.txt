@@ -1,4 +1,8 @@
+LICENSE
+MANIFEST.in
 README.md
+pyproject.toml
+requirements.txt
 setup.py
 gitgenius/__init__.py
 gitgenius/admin.py
@@ -6,7 +10,6 @@ gitgenius/cli.py
 gitgenius/db.py
 gitgenius/error_db.py
 gitgenius/explainer.py
-gitgenius/tempCodeRunnerFile.py
 gitgenius.egg-info/PKG-INFO
 gitgenius.egg-info/SOURCES.txt
 gitgenius.egg-info/dependency_links.txt

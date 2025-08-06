@@ -1,19 +1,3 @@
-Metadata-Version: 2.1
-Name: gitgenius
-Version: 0.1.1
-Summary: GitGenius CLI - Understand Git errors in plain English
-Author: Selva Neyas U
-Author-email: selvaneyas@gmail.com
-License: MIT
-Classifier: Programming Language :: Python :: 3
-Classifier: License :: OSI Approved :: MIT License
-Classifier: Operating System :: OS Independent
-Classifier: Environment :: Console
-Classifier: Topic :: Software Development :: Version Control :: Git
-Requires-Python: >=3.7
-Description-Content-Type: text/markdown
-License-File: LICENSE
-
 ![](assert/2.png)
 # 🧠 GitGenius CLI
 > Understand Git errors in plain English – directly from your terminal.
