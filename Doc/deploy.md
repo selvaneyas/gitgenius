@@ -136,8 +136,6 @@ rm -rf build dist *.egg-info
 ---
 
 
-To deploy your **MkDocs + Material for MkDocs** documentation site for **free**, including SEO, custom domain, social preview, and versioning, here’s a **complete step-by-step guide**:
-
 ---
 
 ## ✅ 1. 🧱 Project Structure Example
@@ -185,18 +183,7 @@ extra:
 
 Use a transparent favicon or convert it to white background:
 
-### Convert PNG to Transparent/White background:
 
-Use online tools:
-
-* [https://www.remove.bg](https://www.remove.bg)
-* [https://favicon.io/](https://favicon.io/)
-
-Then save it in your project:
-
-```
-/docs/assets/favicon.ico
-```
 
 ---
 
@@ -241,6 +228,8 @@ mike set-default v1
 
 ```bash
 mkdocs gh-deploy
+mkdocs gh-deploy --ignore-version
+
 ```
 
 > This creates the `gh-pages` branch and uploads static files.
