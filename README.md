@@ -113,20 +113,20 @@ Windows CMD does not support emojis by default.
 * Use **Windows Terminal**, **PowerShell**, or **Git Bash**.
 * Or remove emojis by adding a `--no-emoji` flag in your tool (recommended feature to add).
 
----
+
 
 ## 📜 License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
----
+
 
 ## 🌟 Star & Contribute
 
 If you find this project helpful, give it a ⭐ on [GitHub](https://github.com/selvaneyas/gitgenius)!
 Feel free to fork and improve the tool — contributions are welcome.
 
----
+
 
 ## 📫 Contact
 
