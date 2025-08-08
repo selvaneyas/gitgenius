@@ -11,6 +11,13 @@
 ```bash
 pip install gitgenius
 ```
+### 📌 How it works
+1. Copy the installation command.
+2. Paste it into your terminal.
+3. Watch the magic happen 🎩✨.
+
+### 📽 Demo
+![1754677466660](assets/install%20demo.gif)
 
 ## 🧪 Upgrade
 

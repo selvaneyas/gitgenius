@@ -1,4 +1,4 @@
-name: Upload Python Package
+name: Upload Python Package 🚀
 
 on:
   push:
@@ -7,30 +7,31 @@ on:
 
 jobs:
   build:
-    name: Build and publish
+    name: Build and publish 📦
     runs-on: ubuntu-latest
     permissions:
       id-token: write  # Needed for trusted publishing (OIDC)
       contents: read
 
     steps:
-      - name: Checkout code
+      - name: Checkout code 🛎️
         uses: actions/checkout@v4
 
-      - name: Set up Python
+      - name: Set up Python 🐍
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Install build tools
+      - name: Install build tools 🔧
         run: |
-          python -m pip install --upgrade pip build
+          python -m pip install --upgrade pip
+          python -m pip install build
 
-      - name: Build the package
+      - name: Build the package 📦
         run: |
-          python -m build  # This creates dist/ with .tar.gz and .whl
+          python -m build  # Creates dist/ with .tar.gz and .whl
 
-      - name: Publish to PyPI
+      - name: Publish to PyPI 🚀
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
           skip-existing: true

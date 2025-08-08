@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://selvaneyas.github.io/gitgenius-cli/0.1.3/</loc>
+         <loc>https://selvaneyas.github.io/gitgenius-cli/</loc>
          <lastmod>2025-08-08</lastmod>
     </url>
     <url>
-         <loc>https://selvaneyas.github.io/gitgenius-cli/0.1.3/changelog/</loc>
+         <loc>https://selvaneyas.github.io/gitgenius-cli/changelog/</loc>
          <lastmod>2025-08-08</lastmod>
     </url>
     <url>
-         <loc>https://selvaneyas.github.io/gitgenius-cli/0.1.3/commands/</loc>
+         <loc>https://selvaneyas.github.io/gitgenius-cli/commands/</loc>
          <lastmod>2025-08-08</lastmod>
     </url>
     <url>
-         <loc>https://selvaneyas.github.io/gitgenius-cli/0.1.3/faq/</loc>
+         <loc>https://selvaneyas.github.io/gitgenius-cli/faq/</loc>
          <lastmod>2025-08-08</lastmod>
     </url>
     <url>
-         <loc>https://selvaneyas.github.io/gitgenius-cli/0.1.3/features/</loc>
+         <loc>https://selvaneyas.github.io/gitgenius-cli/features/</loc>
          <lastmod>2025-08-08</lastmod>
     </url>
     <url>
-         <loc>https://selvaneyas.github.io/gitgenius-cli/0.1.3/full/</loc>
+         <loc>https://selvaneyas.github.io/gitgenius-cli/full/</loc>
          <lastmod>2025-08-08</lastmod>
     </url>
     <url>
-         <loc>https://selvaneyas.github.io/gitgenius-cli/0.1.3/install/</loc>
+         <loc>https://selvaneyas.github.io/gitgenius-cli/install/</loc>
          <lastmod>2025-08-08</lastmod>
     </url>
     <url>
-         <loc>https://selvaneyas.github.io/gitgenius-cli/0.1.3/usage/</loc>
+         <loc>https://selvaneyas.github.io/gitgenius-cli/usage/</loc>
          <lastmod>2025-08-08</lastmod>
     </url>
 </urlset>
