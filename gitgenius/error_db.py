@@ -9,12 +9,14 @@ import os
 ERRORS_FILE = os.path.join(os.path.dirname(__file__), "error_db.json")
 
 def load_errors():
+    """Load Git error messages from JSON file."""
     if os.path.exists(ERRORS_FILE):
         with open(ERRORS_FILE, "r") as f:
             return json.load(f)
     return {}
 
 def save_errors(errors):
+    """Save Git error messages to JSON file."""
     with open(ERRORS_FILE, "w") as f:
         json.dump(errors, f, indent=4)
 

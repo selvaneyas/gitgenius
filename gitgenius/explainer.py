@@ -3,6 +3,7 @@
 from .error_db import GIT_ERRORS
 
 def explain_error(message: str) -> dict:
+    """Return explanation and solution for a Git error."""
     for key in GIT_ERRORS:
         if key.lower() in message.lower():
             return {
@@ -17,6 +18,7 @@ def explain_error(message: str) -> dict:
     }
 
 def add_error_to_db(error: str, explanation: str, solution: str) -> bool:
+    """Add a new error to the in-memory database (not persisted)."""
     if error in GIT_ERRORS:
         return False
     GIT_ERRORS[error] = {"explanation": explanation, "solution": solution}

@@ -263,6 +263,15 @@ mkdocs gh-deploy --ignore-version
 CNAME -> YOUR_USERNAME.github.io
 ```
 
+# Install mike if not already
+pip install mike
+
+# Deploy v0.1.3 as the latest & default
+mike deploy 0.1.3 latest
+mike set-default latest
+
+# Push to GitHub Pages
+git push origin gh-pages
 
 ---
 

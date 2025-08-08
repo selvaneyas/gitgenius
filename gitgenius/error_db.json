@@ -28,7 +28,7 @@
         "solution": "Finish with `git commit`, or abort with `git merge --abort`."
     },
     "fatal: destination path already exists and is not an empty directory": {
-        "explanation": "You\u00e2\u20ac\u2122re trying to clone into a folder that already exists.",
+        "explanation": "You're trying to clone into a folder that already exists.",
         "solution": "Delete the folder or choose a new one."
     },
     "Permission denied (publickey)": {
@@ -40,7 +40,7 @@
         "solution": "Check the URL or switch to HTTPS."
     },
     "Your branch is ahead of 'origin/main' by": {
-        "explanation": "You\u00e2\u20ac\u2122ve made local commits not pushed to remote.",
+        "explanation": "You've made local commits not pushed to remote.",
         "solution": "Use `git push` to upload your commits."
     },
     "Your branch is behind 'origin/main' by": {
@@ -52,11 +52,11 @@
         "solution": "Double-check names with `git branch` or `git log`."
     },
     "fatal: ambiguous argument": {
-        "explanation": "Git didn\u00e2\u20ac\u2122t understand your argument.",
+        "explanation": "Git didn't understand your argument.",
         "solution": "Be more specific. For example: `git checkout origin/main`."
     },
     "error: pathspec did not match any file(s) known to git": {
         "explanation": "The file or branch you're referencing doesn't exist.",
-        "solution": "Check for typos or use `git status` to see what\u00e2\u20ac\u2122s available."
+        "solution": "Check for typos or use `git status` to see what's available."
     }
 }

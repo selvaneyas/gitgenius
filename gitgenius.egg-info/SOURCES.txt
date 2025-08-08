@@ -7,8 +7,10 @@ setup.py
 gitgenius/__init__.py
 gitgenius/admin.py
 gitgenius/cli.py
+gitgenius/config.py
 gitgenius/db.py
 gitgenius/error_db.py
+gitgenius/examples.py
 gitgenius/explainer.py
 gitgenius.egg-info/PKG-INFO
 gitgenius.egg-info/SOURCES.txt

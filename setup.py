@@ -2,12 +2,17 @@ from setuptools import setup, find_packages
 
 setup(
     name='gitgenius',
-    version='0.1.2',
+    version='0.1.3',
     description='GitGenius CLI - Understand Git errors in plain English',
     long_description=open('README.md', encoding='utf-8').read(),
     long_description_content_type='text/markdown',
     author='Selva Neyas U',
     author_email='selvaneyas@gmail.com',  # update with your email
+    url='https://github.com/selvaneyas/gitgenius',
+    project_urls={  # optional extra links
+        'Bug Tracker': 'https://github.com/selvaneyas/gitgenius/issues',
+        'Documentation': 'https://selvaneyas.github.io/gitgenius/',
+    },
     license='MIT',
     packages=find_packages(),
     include_package_data=True,

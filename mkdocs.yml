@@ -103,6 +103,7 @@ nav:
   - Home: index.md
   - Installation: install.md
   - Usage: usage.md
+  - Commands: commands.md
   - Features: features.md
   - FAQ: faq.md
   - Changelog: changelog.md

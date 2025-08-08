@@ -1,10 +1,13 @@
-Metadata-Version: 2.1
+Metadata-Version: 2.4
 Name: gitgenius
-Version: 0.1.2
+Version: 0.1.3
 Summary: GitGenius CLI - Understand Git errors in plain English
+Home-page: https://github.com/selvaneyas/gitgenius
 Author: Selva Neyas U
 Author-email: selvaneyas@gmail.com
 License: MIT
+Project-URL: Bug Tracker, https://github.com/selvaneyas/gitgenius/issues
+Project-URL: Documentation, https://selvaneyas.github.io/gitgenius/
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
@@ -13,6 +16,21 @@ Classifier: Topic :: Software Development :: Version Control :: Git
 Requires-Python: >=3.7
 Description-Content-Type: text/markdown
 License-File: LICENSE
+Requires-Dist: GitPython==3.1.32
+Requires-Dist: gitdb==4.0.10
+Requires-Dist: rich==13.7.1
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: license-file
+Dynamic: project-url
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/selvaneyas/gitgenius/main/assert/2.png" alt="GitGenius CLI Logo" width="400"/>

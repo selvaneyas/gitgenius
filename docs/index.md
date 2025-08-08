@@ -10,19 +10,22 @@ Welcome to the documentation for **GitGenius CLI**, your intelligent command-lin
 
 **GitGenius** is a smart and simple CLI tool that explains Git errors in plain English and helps you fix them quickly.
 
+GitGenius is your intelligent command-line assistant that explains confusing Git errors and helps you fix them — instantly.
 
 ## 🚀 Why GitGenius?
 
-- Decode cryptic Git errors
-- Instantly suggest fixes
-- Lightweight, no learning curve
-- Built for developers, by a developer
+- 🔍 Decode cryptic Git errors
+- 💡 Suggests best fixes
+- ⚡ Works offline
+- 🧠 Understands complex Git messages
+- 🔄 Constant updates
 
 
 ## 📚 Explore
 
 - 📦 [Installation](install.md)
 - 💻 [Usage](usage.md)
+- 📖 [Commands Reference](commands.md)
 - ✨ [Features](features.md)
 - ❓ [FAQ](faq.md)
 - 🕒 [Changelog](changelog.md)
